@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Kameron:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.hero {
+  background: #0A1931;
+  min-height: 100vh;
+  width: 100%;
+  color: #fff;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 8%;
+}
+
+nav>a {
+  font-family: 'Kameron', serif;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+nav .logo {
+  width: 160px;
+  cursor: pointer;
+}
+
+nav ul {
+  align-items: center;
+}
+
+nav ul li {
+  padding: 0 10px;
+  display: inline-block;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+button {
+  background: #efefef;
+  height: 30px;
+  width: 60px;
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+button span {
+  display: block;
+  background: #999;
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  margin-left: 2px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.img-container {
+  display: flex;
+  flex: 1;
+  justify-content: right;
+  align-items: center;
+}
+
+.text-container {
+  display: flex;
+  flex: 1;
+  justify-content: left;
+  align-items: center;
+}
+
+.text-container h1 {
+  font-size: 80px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.text-container a {
+  text-decoration: none;
+  background: #185ADB;
+  padding: 14px 40px;
+  display: inline-block;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 30px;
+  border-radius: 30px;
+}

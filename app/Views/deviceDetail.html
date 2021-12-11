@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IOT Devices</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.0.1/tailwind.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kameron:wght@700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+
+        .hero {
+            background: #0A1931;
+            min-height: 100vh;
+            width: 100%;
+            color: #fff;
+            position: relative;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 8%;
+        }
+
+        nav>a {
+            font-family: 'Kameron', serif;
+            font-size: 30px;
+            color: white;
+            text-decoration: none;
+        }
+
+        nav .logo {
+            width: 160px;
+            cursor: pointer;
+        }
+
+        nav ul {
+            align-items: center;
+        }
+
+        nav ul li {
+            padding: 0 10px;
+            display: inline-block;
+            list-style: none;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        button {
+            background: #efefef;
+            height: 30px;
+            width: 60px;
+            border-radius: 20px;
+            border: 0;
+            outline: 0;
+            cursor: pointer;
+        }
+
+        button span {
+            display: block;
+            background: #999;
+            height: 26px;
+            width: 26px;
+            border-radius: 50%;
+            margin-left: 2px;
+        }
+
+        .main-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero">
+        <nav>
+            <a href="">D'vices</a>
+            <ul>
+                <li><a href="">Latest</a></li>
+                <li><a href="">modern</a></li>
+                <li><a href="">Contemporary</a></li>
+                <li><a href="">Affordable</a></li>
+            </ul>
+        </nav>
+        <div class="main-container mt-8">
+            <div class="max-w-4xl bg-white w-4/5 rounded-lg shadow-xl text-black">
+                <div class="p-4 border-b">
+                    <h2 class="text-2xl ">
+                        Detail Devices
+                    </h2>
+                </div>
+                <div>
+                    <div class="flex md:grid md:grid-cols-2 hover:bg-gray-50 md:space-y-0 space-y-1 p-4 border-b">
+                        <div class="w-1/2">
+                            <p class="text-gray-600">
+                                Nama Barang
+                            </p>
+                            <p>
+                                Jane Doe
+                            </p>
+                        </div>
+                        <div>
+                            <p class="text-gray-600">
+                                Brand
+                            </p>
+                            <p>
+                                Jane Doe
+                            </p>
+                        </div>
+                    </div>
+                    <div class="md:grid md:grid-cols-2 hover:bg-gray-50 md:space-y-0 space-y-1 p-4 border-b">
+                        <p class="text-gray-600">
+                            Quantity
+                        </p>
+                        <p>
+                            Jane Doe
+                        </p>
+                    </div>
+                    <div class="md:grid md:grid-cols-2 hover:bg-gray-50 md:space-y-0 space-y-1 p-4 border-b">
+                        <p class="text-gray-600">
+                            Origin
+                        </p>
+                        <p>
+                            Janedoe@gmail.com
+                        </p>
+                    </div>
+                    <div class="md:grid md:grid-cols-2 hover:bg-gray-50 md:space-y-0 space-y-1 p-4 border-b">
+                        <p class="text-gray-600">
+                            Defect
+                        </p>
+                        <p>
+                            $ 12000
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
